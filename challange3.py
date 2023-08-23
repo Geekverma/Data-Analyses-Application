@@ -11,8 +11,8 @@ for key,val in c02_emission_dict.items():
     if key == 'CO2 per capita':
         continue
     elif key.lower() == country.lower():
-        c02_emission_list = [float(i) for i in val if val.index(i)]
-        year = np.array([1997,2010])
-        emission = np.array([min(c02_emission_list),max(c02_emission_list)])
+        c02_emission_list = [float(i) for i in val]
+        year = np.array([i for i in range(1997,2011)])
+        emission = np.array(sorted(c02_emission_list))
         plt.plot(year,emission)
         plt.show()

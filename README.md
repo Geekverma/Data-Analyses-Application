@@ -23,3 +23,8 @@ in that year find min,max,average co2 emission among countries
 challange 3
 It's time to visualize the data. Plot the emissions data from a user-selected country. You should use Python plotting library matplotlib for drawing the plots. The below should be your output.
 '''
+
+
+'''
+plot a comparison graph based on user provided coutnries
+'''
