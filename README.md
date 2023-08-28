@@ -36,3 +36,6 @@ challange 5
 2.	The new file should have the exact same format as the source file, i.e. first line of headers and then up to 3 lines for selected countries
 '''
 
+'''
+handle excepiton and input entered by user
+'''
