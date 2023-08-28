@@ -26,5 +26,13 @@ It's time to visualize the data. Plot the emissions data from a user-selected co
 
 
 '''
+challange 4
 plot a comparison graph based on user provided coutnries
 '''
+
+'''
+challange 5
+1.	You will extract data for up to three user-selected countries and save it to a new file Emissions_subset.csv. 
+2.	The new file should have the exact same format as the source file, i.e. first line of headers and then up to 3 lines for selected countries
+'''
+
